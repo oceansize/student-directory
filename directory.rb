@@ -1,24 +1,24 @@
 #Put all the students into an array
 students = [
-    "Faezrah Rizalman",
-    "Federico Maffei",
-    "Fitsum Teklehaimanot",
-    "James Keap",
-    "James Whyte",
-    "Jamie Patel",
-    "Johann Bornman",
-    "Josh Fail-Brown",
-    "Julia Tan",
-    "Julie Walker",
-    "Kate Hamilton",
-    "Margherita Serino",
-    "Nadav Matalon",
-    "Nic Yeeles",
-    "Nicolai DTH",
-    "Roi Driscoll",
-    "Sasha Cooper",
-    "Vaidas Mykolaitis",
-    "Will Allen"
+    ["Faezrah Rizalman", :november],
+    ["Federico Maffei", :november],
+    ["Fitsum Teklehaimanot", :november],
+    ["James Keap", :november],
+    ["James Whyte", :november],
+    ["Jamie Patel", :november],
+    ["Johann Bornman", :november],
+    ["Josh Fail-Brown", :november],
+    ["Julia Tan", :november],
+    ["Julie Walker", :november],
+    ["Kate Hamilton", :november],
+    ["Margherita Serino", :november],
+    ["Nadav Matalon", :november],
+    ["Nic Yeeles", :november],
+    ["Nicolai DTH", :november],
+    ["Roi Driscoll", :november],
+    ["Sasha Cooper", :november],
+    ["Vaidas Mykolaitis", :november],
+    ["Will Allen", :november]
 ]
 
 def print_header
@@ -26,9 +26,9 @@ def print_header
     puts "==========================================="
 end
 
-def print(names)
-    names.each do |name|
-        puts name
+def print(students)
+    students.each do |student|
+        puts "#{student[0]} (#{student[1]} cohort)"
     end
 end
 
