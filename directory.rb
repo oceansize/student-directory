@@ -17,3 +17,6 @@ puts "Roi Driscoll"
 puts "Sasha Cooper"
 puts "Vaidas Mykolaitis"
 puts "Will Allen"
+print "Overall we have "
+print 19
+puts " great students"
