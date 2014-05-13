@@ -1,26 +1,48 @@
-#First declare a variable initialised with the total number of students
-student_count = 19
+#Put all the students into an array
+students = [
+    "Faezrah Rizalman",
+    "Federico Maffei",
+    "Fitsum Teklehaimanot",
+    "James Keap",
+    "James Whyte",
+    "Jamie Patel",
+    "Johann Bornman",
+    "Josh Fail-Brown",
+    "Julia Tan",
+    "Julie Walker",
+    "Kate Hamilton",
+    "Margherita Serino",
+    "Nadav Matalon",
+    "Nic Yeeles",
+    "Nicolai DTH",
+    "Roi Driscoll",
+    "Sasha Cooper",
+    "Vaidas Mykolaitis",
+    "Will Allen"
+]
 
-#Add a header section, and a separating rule
+#And then print them
 puts "Makers Academy : May 2014 Cohort"
 puts "================================"
-#Then print out a list of students
-puts "Faezrah Rizalman"
-puts "Federico Maffei"
-puts "James Keap"
-puts "James Whyte"
-puts "Jamie Patel"
-puts "Johann Bornman"
-puts "Josh Fail-Brown"
-puts "Julia Tan"
-puts "Julie Walker"
-puts "Kate Hamilton"
-puts "Margherita Serino"
-puts "Nic Yeeles"
-puts "Nicolai DTH"
-puts "Roi Driscoll"
-puts "Sasha Cooper"
-puts "Vaidas Mykolaitis"
-puts "Will Allen"
-#Final line uses string interpolation to insert student total
-puts "Overall we have #{student_count} great students"
+puts students[0]
+puts students[1]
+puts students[2]
+puts students[3]
+puts students[4]
+puts students[5]
+puts students[6]
+puts students[7]
+puts students[8]
+puts students[9]
+puts students[10]
+puts students[11]
+puts students[12]
+puts students[13]
+puts students[14]
+puts students[15]
+puts students[16]
+puts students[17]
+puts students[18]
+
+#Finally we print the total
+puts "Overall we have #{students.length} great students"
