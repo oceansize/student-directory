@@ -1,3 +1,5 @@
+puts "Makers Academy : May 2014 Cohort"
+puts "================================"
 puts "Faezrah Rizalman"
 puts "Federico Maffei"
 puts "James Keap"
