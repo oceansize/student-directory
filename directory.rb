@@ -1,3 +1,5 @@
+student_count = 19
+
 #First we put a header section, and a separating rule
 puts "Makers Academy : May 2014 Cohort"
 puts "================================"
@@ -22,6 +24,6 @@ puts "Will Allen"
 #Third we switch to print() in order to avoid line breaks
 print "Overall we have "
 #Fourth we add an integer to the same line
-print 19
+print student_count
 #Fith we revert back to puts() to finish off the final line
 puts " great students"
