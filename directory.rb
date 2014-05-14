@@ -62,7 +62,7 @@ def interactive_menu
     end
 end
 
-puts interactive_menu
+interactive_menu
 
 
 
