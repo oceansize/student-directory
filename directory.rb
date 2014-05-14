@@ -25,8 +25,12 @@ def print_header
 end
 
 def print(students) # Does this override print()???
-    students.to_enum.with_index(1).each do |student, i|
-        puts "#{i}. #{student[:name]} (#{student[:cohort].capitalize} cohort)"
+    students.to_enum.with_index(1).each do |student, i| # Passes an index number starting from '1'
+        name_arr = student[:name].split(//) # Takes the :name symbol value and splits it into an array, then assigns to variable
+        name_first_char = name_arr.first # Assign first character in array to variable
+        if name_first_char == "A" #Compares to chosen flag
+            puts "#{i}. #{student[:name]} (#{student[:cohort].capitalize} cohort)"
+        end
     end
 end
 
