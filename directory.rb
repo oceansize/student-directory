@@ -24,9 +24,9 @@ def print_header
     puts "==========================================="
 end
 
-def print(students)
-    students.each do |student|
-        puts "#{student[:name]} (#{student[:cohort].capitalize} cohort)"
+def print(students) # Does this override print()???
+    students.to_enum.with_index(1).each do |student, i|
+        puts "#{i}. #{student[:name]} (#{student[:cohort].capitalize} cohort)"
     end
 end
 
