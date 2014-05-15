@@ -24,25 +24,11 @@ def print_header
     puts "==========================================="
 end
 
-# def print(students) # Does this override print()???
-#     # Pass an index number starting from '1'
-#     students.to_enum.with_index(1).each do |student, i|
-#         # Split :student[:name] into an array, then assign to variable
-#         name_arr = student[:name].split(//)
-#         name_first_char = name_arr.first # First character in array to variable
 
-#         if name_first_char == "A" #Compares to chosen flag
-#             puts "#{i}. #{student[:name]} (#{student[:coho rt].capitalize} cohort)"
-#         end
-#     end
-# end
-
-def print(students) # Does this override print()???
-    # Pass an index number starting from '1'
+def print(students)
+    name_character_limit = 12
     students.to_enum.with_index(1).each do |student, i|
-        # Split :student[:name] into an array, then assign to variable
-        name_character_limit = 12
-        if student[:name].length < name_character_limit #Compares to chosen flag
+        if student[:name].length < name_character_limit
             puts "#{i}. #{student[:name]} (#{student[:cohort].capitalize} cohort)"
         end
     end
