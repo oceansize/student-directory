@@ -1,4 +1,6 @@
 def print_header
-    puts "The students of my cohort at Makers Academy"
-    puts "==========================================="
+    puts ""
+    puts "=".center($viewport_width, '=')
+    puts " MAKERS ACADEMY : STUDENT DIRECTORY ".center($viewport_width, ':.:.')
+    puts "=".center($viewport_width, '=')
 end
