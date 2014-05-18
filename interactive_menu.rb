@@ -16,13 +16,13 @@ def interactive_menu
                 students = input_students # input the students
             when "2"
                 # show the students
-                print_header
+                print_main_header
                 print(students)
                 print_footer(students)
             when "9"
                 exit # this will cause the program to terminate
             else
-                puts "I don't know what you meant - please try again."
+                puts "I don't know what you meant - please try again.".center($viewport_width)
         end
     end
 end
