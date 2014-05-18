@@ -16,7 +16,8 @@ def interactive_menu
                 students = input_students # input the students
             when "2"
                 # show the students
-                print_main_header
+                filter = "temporary value"
+                print_output_header(filter)
                 print(students)
                 print_footer(students)
             when "9"
